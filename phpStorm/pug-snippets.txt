@@ -14,3 +14,25 @@ img(src="$IMAGEPATH$" alt="$IMAGEDESCRIPTION$")$END$
 svg
   use(xlink:href="assets/img/sprite.svg#$MYSVGNAME$")$END$
 
+//////////////////////////////
+// abbreviation - sec
+//////////////////////////////
+//begin $SECTIONCLASS$
+section.$SECTIONCLASS$$END$
+//end   $SECTIONCLASS$
+
+//////////////////////////////
+// abbreviation - phone
+//////////////////////////////
+a(href="tel:+$NUMBERWITHOUTSPACE$")$NUMBERWITHSPACE$
+
+//////////////////////////////
+// abbreviation - mail
+//////////////////////////////
+a(href="mailto:$MYEMAIL$") $MYEMAIL$
+
+//////////////////////////////
+// abbreviation - adress
+//////////////////////////////
+a(href="$ADRESSLINK$" target="_blank" rel="nofollow noopener noreferrer") $END$
+
