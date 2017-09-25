@@ -8,3 +8,9 @@ a(href="$MYLINK$")$END$
 //////////////////////////////
 img(src="$IMAGEPATH$" alt="$IMAGEDESCRIPTION$")$END$
 
+//////////////////////////////
+// abbreviation - svg
+//////////////////////////////
+svg
+  use(xlink:href="assets/img/sprite.svg#$MYSVGNAME$")$END$
+

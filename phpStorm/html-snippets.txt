@@ -1,0 +1,8 @@
+//////////////////////////////
+// abbreviation - sec
+//////////////////////////////
+<!-- begin $MYCLASS$ -->
+<section class="$MYCLASS$">$END$
+</section>
+<!-- end   $MYCLASS$ -->
+
